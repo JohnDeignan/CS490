@@ -2,10 +2,10 @@
 
 allows student to take test.
 
--show all test question(s) 
----show question text
----show question worth (i.e. [x points])
----text area below question for students answer
+-display all test question(s);
+        -display question text
+        -display question worth (i.e. [x points])
+        -text area below question for students answer
 
 -->
 
