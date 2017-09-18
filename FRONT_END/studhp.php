@@ -1,9 +1,12 @@
 <!--
 
-student homepage
+student homepage.
 
--view active tests [with option to take if not taken already]
--view released score(s)
+display(s):
+-active tests [with option to take if not taken already]
+
+action(s):
+-active tests [with option to view results if already taken/released]
 
 -->
 
