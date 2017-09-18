@@ -22,7 +22,7 @@ action(s):
     -question is no longer highlighted green and is no longer locked in question bank
 -once question is in test bank, option to add specific point value [default: 5]
 -add name of test in test bank on right half of screen
-
+-dynamically filter by type, difficulty, or both
 
 -->
 
