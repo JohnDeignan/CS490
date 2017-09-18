@@ -2,10 +2,14 @@
 
 allows student to take test.
 
--display all test question(s);
-        -display question text
-        -display question worth (i.e. [x points])
-        -text area below question for students answer
+display(s):
+-all test question(s);
+        -question text
+        -question worth (i.e. [x points])
+
+action(s):
+-text area below question for students answer
+-submit test button
 
 -->
 
