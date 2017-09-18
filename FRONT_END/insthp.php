@@ -2,6 +2,11 @@
 
 instructor homepage.
 
+display(s):
+-active test information
+-number of submissions of each test
+
+action(s):
 -access question bank
 -create test
 -view results of submitted tests
