@@ -2,11 +2,15 @@
 
 allows student to view selected test which has been already released.
 
--display question text
--display student's answer
--display correct answer
--display student's score
--display comment(s) made on answer
+display(s):
+-question text
+-student's answer
+-correct answer
+-student's score
+-comment(s) made on answer
+
+action(s):
+-banner option to logout or go to homepage
 
 -->
 
@@ -53,7 +57,6 @@ allows student to view selected test which has been already released.
                 <?php
                 $user = $_POST['user'];
                 echo "<li><a href='studhp.php?user=".$user."'><b>CODEQUIZ</b></a></li>";
-                echo "<li><a href='studtake.php?user=".$user."'><b>Take Tests</b></a></li>";
                 echo "<li style='float:right'><a href='login.php'><b>Log Out</b></a></li>";
                 ?>
             </ul>
