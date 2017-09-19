@@ -21,8 +21,8 @@ if(isset($_POST['insert'])){
 </html>
 <?php
     			function insert(){
-                          mysql_connect('sql1.njit.edu', 'ase28', 'aoFxdVBX3');
-            			mysql_select_db('ase28');
+                          mysql_connect('server', 'username', 'password');
+            			mysql_select_db('dbname');
        			        $insertstring = $_POST['insert'];
             			$insert = json_decode($insertstring);
 
