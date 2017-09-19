@@ -15,7 +15,7 @@ if(isset($_POST['data'])){
 		</form>
 		<?php
 			function logInfo(){
-				mysql_connect('sql1.njit.edu', 'ase28', 'aoFxdVBX3');
+				mysql_connect('server', 'uername', 'password');
 				mysql_select_db('ase28');
 				$datastring = $_POST['data'];
 				$data = json_decode($datastring);
