@@ -15,8 +15,8 @@ if(isset($_POST['data'])){
      	  </form>
         <?php
           function insert(){
-            mysql_connect('sql1.njit.edu', 'ase28', 'aoFxdVBX3');
-            mysql_select_db('ase28');
+            mysql_connect('server', 'username', 'password');
+            mysql_select_db('dbname');
             $json = $_POST['data'];
             $data = json_decode($json);
             $res2 = mysql_query("INSERT INTO STUDTEST(STUDUSER,TESTID,SCORE, COMMENT, ACTIVE) VALUES('$data->user','$data->testid','$data->score','','false')");
