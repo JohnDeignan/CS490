@@ -1,7 +1,7 @@
        		<?php
 
-                        			mysql_connect('sql1.njit.edu', 'ase28', 'aoFxdVBX3');
-                        			mysql_select_db('ase28');
+                        			mysql_connect('server', 'username', 'password');
+                        			mysql_select_db('dbname');
         			        $datastring = $_POST['data'];
                         			$data = json_decode($datastring);
                                     $user = $_POST['user'];
