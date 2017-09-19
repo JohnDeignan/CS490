@@ -5,8 +5,8 @@
                     $scores = $_POST['scores'];
                     $questid = $_POST['questid'];
                     $comment = $_POST['comment'];
-                    mysql_connect('sql1.njit.edu', 'ase28', 'aoFxdVBX3');
-            		  	mysql_select_db('ase28');
+                    mysql_connect('server', 'username', 'password');
+            		  	mysql_select_db('dbname');
                     $size = count((array)$scores);
                     $total = 0;
                     echo "INSTUSER: ".$instuser;echo "<br/>";
